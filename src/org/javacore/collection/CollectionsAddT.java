@@ -1,4 +1,4 @@
-package java_core.collection;
+package org.javacore.collection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
