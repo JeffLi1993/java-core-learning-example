@@ -13,7 +13,6 @@ Java核心技术学习代码兼测试案例<br>
 
 包目录：
 
-
 	├── org.javacore.collection	// Java集合
 	├── org.javacore.collection.list	// Java集合List
 	├── org.javacore.collection.map	// Java集合Map
@@ -24,8 +23,6 @@ Java核心技术学习代码兼测试案例<br>
 	拼命更新！顶！d=====(￣▽￣*)b
 
 详细目录：
-
-
 
 	├── README.md							// 项目唯一详细文档
 	├── org.javacore.collection			// Java集合
