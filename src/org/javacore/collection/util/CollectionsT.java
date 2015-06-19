@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * @author Jeff Lee
  * @since 2015-6-17 23:32:30
- * 	集合工具类的使用
+ * 	Collections的使用
  */
 public class CollectionsT{
 	public static void main(String[] args){
