@@ -28,10 +28,10 @@ import java.util.TreeSet;
 /**
  * @author Jeff Lee
  * @since 2015-6-17 23:32:30
- * 	各集合添加元素对比
+ * 	各集合添加元素性能对比
  */
 @SuppressWarnings("unchecked")
-public class CollectionsAddT{
+public class PerBtwnAllCollectionsT{
 	
 	public static void main(String[] args){
 		// List Add对比
