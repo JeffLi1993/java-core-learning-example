@@ -22,7 +22,7 @@ import java.util.Set;
 /**
  * @author Jeff Lee
  * @since 2015-6-19 15:46:37
- * 	Set contains方法
+ * 	Set的Contains方法
  */
 public class SetContainT {
 	public static void main(String[] args) {
