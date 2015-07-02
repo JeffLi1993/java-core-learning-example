@@ -18,7 +18,7 @@ package org.javacore.io.byteoper;
 /**
  * @author Jeff Lee
  * @since 2015-6-19 21:26:04
- * 	
+ * 	Long与byte数组转换
  */
 public class LongConvertT {
 	
