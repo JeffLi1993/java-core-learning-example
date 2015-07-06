@@ -20,7 +20,8 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.collection.set	// Java集合Set
 	├── org.javacore.collection.util	// Java集合工具类
 	├── org.javacore.io			// Java IO
-	├── org.javacore.io.byteoper	// Java IO 字节操作
+	├── org.javacore.io.byteoper		// Java IO 字节操作
+	├── org.javacore.thread			// Java 线程
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
 
@@ -49,11 +50,14 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	IterAndListIterT.java			// Iterator与ListIterator的区别
 	├── 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP 与 new HashMap 性能对比
 	├── org.javacore.io					// Java IO
-	├── org.javacore.io.byteoper		// Java IO 字节操作
+	├── org.javacore.io.byteoper			// Java IO 字节操作
 	├── 	IntegerConvertT.java			// Integer与byte数组转换
 	├── 	IntegerOperT.java				// Integer类的进制转换
 	├── 	LongConvertT.java				// Long与byte数组转换
-	├── 	StringConvertT.java			// 	String转换成byte数组
+	├── 	StringConvertT.java				// 	String转换成byte数组
+	├── org.javacore.thread				// Java 线程
+	├── 	MyThread.java					// Thread的简单使用
+	├── 	MyRunnable.java					// Runnable接口的简单使用
 	拼命更新！顶！d=====(￣▽￣*)b
 
 
