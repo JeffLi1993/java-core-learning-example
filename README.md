@@ -1,63 +1,69 @@
 # java-core-learning-example
-¹ØÓÚJavaºËĞÄ¼¼ÊõÑ§Ï°»ıÀÛµÄÀı×Ó£¬ÊÇ³õÑ§Õß¼°ºËĞÄ¼¼Êõ¹®¹ÌµÄ×î¼ÑÊµ¼ù¡£
+å…³äºJavaæ ¸å¿ƒæŠ€æœ¯å­¦ä¹ ç§¯ç´¯çš„ä¾‹å­ï¼Œæ˜¯åˆå­¦è€…åŠæ ¸å¿ƒæŠ€æœ¯å·©å›ºçš„æœ€ä½³å®è·µã€‚
 
-## ×÷ÕßÓëÑ§Ï°ÀÖÔ°
-×÷Õß£º [ÀîÇ¿Ç¿](http://www.bysocket.com/ "ÀîÇ¿Ç¿")<br>
-QQÈº£º±à³ÌÖ®ÃÀ 365234583 [Á¢¼´¼ÓÈë](http://jq.qq.com/?_wv=1027&k=Sx4s4U "±à³ÌÖ®ÃÀ")
+## ä½œè€…ä¸å­¦ä¹ ä¹å›­
+æºç åœ°å€:æˆ‘çš„[GitHubåœ°å€](https://github.com/JeffLi1993 "GitHub")
+ä½œè€…ï¼š [æå¼ºå¼º](http://www.bysocket.com/ "æå¼ºå¼º")<br>
+QQç¾¤ï¼šç¼–ç¨‹ä¹‹ç¾ 365234583 [ç«‹å³åŠ å…¥](http://jq.qq.com/?_wv=1027&k=Sx4s4U "ç¼–ç¨‹ä¹‹ç¾")
 
-## ÏîÄ¿½á¹¹
-- src Ä¿Â¼<br>
-JavaºËĞÄ¼¼ÊõÑ§Ï°´úÂë¼æ²âÊÔ°¸Àı<br>
-- testÄ¿Â¼(²âÊÔ°üÃûÓësrcÄ¿Â¼±£³ÖÒ»ÖÂ)<br>
-¶ÔÓ¦Ñ§Ï°´úÂë°üµÄÏêÏ¸²âÊÔ°¸Àı<br>
+## é¡¹ç›®ç»“æ„
+- src ç›®å½•<br>
+Javaæ ¸å¿ƒæŠ€æœ¯å­¦ä¹ ä»£ç å…¼æµ‹è¯•æ¡ˆä¾‹<br>
+- testç›®å½•(æµ‹è¯•åŒ…åä¸srcç›®å½•ä¿æŒä¸€è‡´)<br>
+å¯¹åº”å­¦ä¹ ä»£ç åŒ…çš„è¯¦ç»†æµ‹è¯•æ¡ˆä¾‹<br>
 
-°üÄ¿Â¼£º
+åŒ…ç›®å½•ï¼š
 
-	©À©¤©¤ org.javacore.collection	// Java¼¯ºÏ
-	©À©¤©¤ org.javacore.collection.list	// Java¼¯ºÏList
-	©À©¤©¤ org.javacore.collection.map	// Java¼¯ºÏMap
-	©À©¤©¤ org.javacore.collection.queue	// Java¼¯ºÏQueue
-	©À©¤©¤ org.javacore.collection.set	// Java¼¯ºÏSet
-	©À©¤©¤ org.javacore.collection.util	// Java¼¯ºÏ¹¤¾ßÀà
-	©À©¤©¤ org.javacore.io			// Java IO
-	©À©¤©¤ org.javacore.io.byteoper		// Java IO ×Ö½Ú²Ù×÷
-	©À©¤©¤ org.javacore.thread		// Java Ïß³Ì
-	©¦
-	Æ´Ãü¸üĞÂ£¡¶¥£¡d=====(£ş¨Œ£ş*)b
+	â”œâ”€â”€ org.javacore.collection	// Javaé›†åˆ
+	â”œâ”€â”€ org.javacore.collection.list	// Javaé›†åˆList
+	â”œâ”€â”€ org.javacore.collection.map	// Javaé›†åˆMap
+	â”œâ”€â”€ org.javacore.collection.queue	// Javaé›†åˆQueue
+	â”œâ”€â”€ org.javacore.collection.set	// Javaé›†åˆSet
+	â”œâ”€â”€ org.javacore.collection.util	// Javaé›†åˆå·¥å…·ç±»
+	â”œâ”€â”€ org.javacore.io			// Java IO
+	â”œâ”€â”€ org.javacore.io.byteoper		// Java IO å­—èŠ‚æ“ä½œ
+	â”œâ”€â”€ org.javacore.thread		// Java çº¿ç¨‹
+	â”‚
+	æ‹¼å‘½æ›´æ–°ï¼é¡¶ï¼d=====(ï¿£â–½ï¿£*)b
 
-ÏêÏ¸Ä¿Â¼£º
+è¯¦ç»†ç›®å½•ï¼š
 
-	©À©¤©¤ README.md						// ÏîÄ¿Î¨Ò»ÏêÏ¸ÎÄµµ
-	©À©¤©¤ org.javacore.collection		// Java¼¯ºÏ
-	©À©¤©¤ 	PerBtwnAllCollectionsT.java		// ¸÷¼¯ºÏÌí¼Ó·½·¨ĞÔÄÜ¶Ô±È
-	©À©¤©¤ org.javacore.collection.list		// Java¼¯ºÏList
-	©À©¤©¤ 	ArrayListT.java					// ArrayListµÄÊ¹ÓÃ
-	©À©¤©¤ 	PerBtwnArlAndLklT.java			// ArrayListÓëLinkedListĞÔÄÜµÄ¶Ô±È
-	©À©¤©¤ org.javacore.collection.map		// Java¼¯ºÏMap
-	©À©¤©¤ 	HashMapObjT.java				// HashMap²Ù×÷¶ÔÏóµÄ¾ö¶¨Òò×Ó£ºhashCodeÓëequals
-	©À©¤©¤ 	HaspMapT.java					// HashMapµÄAdd·½·¨
-	©À©¤©¤ 	TreeMapT.java					// TreeMapµÄÊ¹ÓÃ
-	©À©¤©¤ org.javacore.collection.queue		// Java¼¯ºÏQueue
-	©À©¤©¤ 	PriorityQueueT.java				// PriorityQueueµÄÊ¹ÓÃ
-	©À©¤©¤ org.javacore.collection.set		// Java¼¯ºÏSet
-	©À©¤©¤ 	HashSetObjT.java				// HashSet²Ù×÷¶ÔÏóµÄ¾ö¶¨Òò×Ó£ºhashCodeÓëequals
-	©À©¤©¤ 	HashSetsCopyT.java				// HashSet¼°Æä×ÓÀàµÄ×ª»»Ê¹ÓÃ
-	©À©¤©¤ 	HashSetT.java					// HashSetµÄAdd·½·¨
-	©À©¤©¤ 	SetContainT.java				// SetµÄContains·½·¨
-	©À©¤©¤ 	TreeSetT.java					// TreeSet²Ù×÷ÊµÏÖComparable½Ó¿ÚµÄ¶ÔÏó
-	©À©¤©¤ org.javacore.collection.util		// Java¼¯ºÏ¹¤¾ßÀà
-	©À©¤©¤ 	CollectionsT.java				// CollectionsµÄÊ¹ÓÃ	
-	©À©¤©¤ 	IterAndListIterT.java			// IteratorÓëListIteratorµÄÇø±ğ
-	©À©¤©¤ 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP Óë new HashMap ĞÔÄÜ¶Ô±È
-	©À©¤©¤ org.javacore.io				// Java IO
-	©À©¤©¤ org.javacore.io.byteoper			// Java IO ×Ö½Ú²Ù×÷
-	©À©¤©¤ 	IntegerConvertT.java			// IntegerÓëbyteÊı×é×ª»»
-	©À©¤©¤ 	IntegerOperT.java				// IntegerÀàµÄ½øÖÆ×ª»»
-	©À©¤©¤ 	LongConvertT.java				// LongÓëbyteÊı×é×ª»»
-	©À©¤©¤ 	StringConvertT.java				// String×ª»»³ÉbyteÊı×é
-	©À©¤©¤ org.javacore.thread			// Java Ïß³Ì
-	©À©¤©¤ 	MyThread.java					// ThreadµÄ¼òµ¥Ê¹ÓÃ
-	©À©¤©¤ 	MyRunnable.java					// Runnable½Ó¿ÚµÄ¼òµ¥Ê¹ÓÃ
-	Æ´Ãü¸üĞÂ£¡¶¥£¡d=====(£ş¨Œ£ş*)b
+	â”œâ”€â”€ README.md						// é¡¹ç›®å”¯ä¸€è¯¦ç»†æ–‡æ¡£
+	â”œâ”€â”€ org.javacore.collection		// Javaé›†åˆ
+	â”œâ”€â”€ 	PerBtwnAllCollectionsT.java		// å„é›†åˆæ·»åŠ æ–¹æ³•æ€§èƒ½å¯¹æ¯”
+	â”œâ”€â”€ org.javacore.collection.list		// Javaé›†åˆList
+	â”œâ”€â”€ 	ArrayListT.java					// ArrayListçš„ä½¿ç”¨
+	â”œâ”€â”€ 	PerBtwnArlAndLklT.java			// ArrayListä¸LinkedListæ€§èƒ½çš„å¯¹æ¯”
+	â”œâ”€â”€ org.javacore.collection.map		// Javaé›†åˆMap
+	â”œâ”€â”€ 	HashMapObjT.java				// HashMapæ“ä½œå¯¹è±¡çš„å†³å®šå› å­ï¼šhashCodeä¸equals
+	â”œâ”€â”€ 	HaspMapT.java					// HashMapçš„Addæ–¹æ³•
+	â”œâ”€â”€ 	TreeMapT.java					// TreeMapçš„ä½¿ç”¨
+	â”œâ”€â”€ org.javacore.collection.queue		// Javaé›†åˆQueue
+	â”œâ”€â”€ 	PriorityQueueT.java				// PriorityQueueçš„ä½¿ç”¨
+	â”œâ”€â”€ org.javacore.collection.set		// Javaé›†åˆSet
+	â”œâ”€â”€ 	HashSetObjT.java				// HashSetæ“ä½œå¯¹è±¡çš„å†³å®šå› å­ï¼šhashCodeä¸equals
+	â”œâ”€â”€ 	HashSetsCopyT.java				// HashSetåŠå…¶å­ç±»çš„è½¬æ¢ä½¿ç”¨
+	â”œâ”€â”€ 	HashSetT.java					// HashSetçš„Addæ–¹æ³•
+	â”œâ”€â”€ 	SetContainT.java				// Setçš„Containsæ–¹æ³•
+	â”œâ”€â”€ 	TreeSetT.java					// TreeSetæ“ä½œå®ç°Comparableæ¥å£çš„å¯¹è±¡
+	â”œâ”€â”€ org.javacore.collection.util		// Javaé›†åˆå·¥å…·ç±»
+	â”œâ”€â”€ 	CollectionsT.java				// Collectionsçš„ä½¿ç”¨	
+	â”œâ”€â”€ 	IterAndListIterT.java			// Iteratorä¸ListIteratorçš„åŒºåˆ«
+	â”œâ”€â”€ 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP ä¸ new HashMap æ€§èƒ½å¯¹æ¯”
+	â”œâ”€â”€ org.javacore.io				// Java IO
+	â”œâ”€â”€ 	Directory.java					// ç›®å½•å®ç”¨å·¥å…·
+	â”œâ”€â”€ 	DirListT.java					// åˆ—å‡ºç›®å½•å¹¶æ’åº
+	â”œâ”€â”€ 	FileMethodsT.java				// Fileæ–¹æ³•è¯¦ç»†ä½¿ç”¨
+	â”œâ”€â”€ 	FileT.java						// Fileç±»çš„ä½¿ç”¨
+	â”œâ”€â”€ org.javacore.io.byteoper			// Java IO å­—èŠ‚æ“ä½œ
+	â”œâ”€â”€ 	IntegerConvertT.java			// Integerä¸byteæ•°ç»„è½¬æ¢
+	â”œâ”€â”€ 	IntegerOperT.java				// Integerç±»çš„è¿›åˆ¶è½¬æ¢
+	â”œâ”€â”€ 	LongConvertT.java				// Longä¸byteæ•°ç»„è½¬æ¢
+	â”œâ”€â”€ 	StringConvertT.java				// Stringè½¬æ¢æˆbyteæ•°ç»„
+	â”œâ”€â”€ org.javacore.thread			// Java çº¿ç¨‹
+	â”œâ”€â”€ 	MyThread.java					// Threadçš„ç®€å•ä½¿ç”¨
+	â”œâ”€â”€ 	MyRunnable.java					// Runnableæ¥å£çš„ç®€å•ä½¿ç”¨
+	æ‹¼å‘½æ›´æ–°ï¼é¡¶ï¼d=====(ï¿£â–½ï¿£*)b
 
-
+##å­¦ä¹ æ–¹æ³•
+æ ¹æ®åŒ…ç›®å½•ï¼Œè¿›è¡Œä¸€å—ä¸€å—å­¦ä¹ ã€‚ç„¶åé’ˆå¯¹æŸç±»ï¼Œè¯·çœ‹ä¸‹ç›¸å¯¹åº”çš„teståŒ…æˆ–è€…srcä¸‹ç›´æ¥æµ‹è¯•æ¡ˆä¾‹ï¼Œè¿›è¡Œå­¦ä¹ ã€‚
