@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 public final class Directory {
 	
 	public static File[] local(File dir,final String regex){
-		return dir.listFiles(new FilenameFilter() {
+		return dir.listFiles(new FilenameFilter() { // 文件过滤接口
 			private Pattern pattern = Pattern.compile(regex);
 			
 			@Override
