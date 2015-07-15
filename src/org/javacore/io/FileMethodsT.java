@@ -26,7 +26,7 @@ public class FileMethodsT {
 	
 	private static void fileData(File f) {
 		System.out.println(
-			"绝对路径：" + f.getAbsolutePath() +
+			" 绝对路径：" + f.getAbsolutePath() +
 			"\n 可读：" + f.canRead() +
 			"\n 可写：" + f.canWrite() +
 			"\n 文件名：" + f.getName() +
@@ -36,9 +36,9 @@ public class FileMethodsT {
 			"\n 最近修改时间：" + f.lastModified()
 			);
 		if(f.isFile())
-			System.out.println("是一个文件");
+			System.out.println(" 是一个文件");
 		else if(f.isDirectory())
-			System.out.println("是一个目录");
+			System.out.println(" 是一个目录");
 	}
 	
 	public static void main(String[] args) {
