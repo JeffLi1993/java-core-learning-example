@@ -2,7 +2,7 @@
 关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
 
 ## 作者与学习乐园
-源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")
+源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")<br>
 作者： [李强强](http://www.bysocket.com/ "李强强")<br>
 QQ群：编程之美 365234583 [立即加入](http://jq.qq.com/?_wv=1027&k=Sx4s4U "编程之美")
 
@@ -55,12 +55,13 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	Directory.java					// 目录实用工具
 	├── 	DirListT.java					// 列出目录并排序
 	├── 	FileMethodsT.java				// File方法详细使用
+	├── 	FilenameFilterT.java			// 类名过滤器的使用
 	├── 	FileT.java						// File类的使用
 	├── 	FormatteMemoryInput.java		// 格式化内存输入
 	├── 	JavaFileListT.java				// FilenameFilter文件过滤器的使用
 	├── 	MemoryInputT.java				// 内存中输入
-	├── 	RandomAccessFileT.java		// RandomAccessFile的使用
-	├── org.javacore.io.byteoper			// Java IO 字节操作
+	├── 	RandomAccessFileT.java			// RandomAccessFile的使用
+	├── org.javacore.io.byteoper		// Java IO 字节操作
 	├── 	IntegerConvertT.java			// Integer与byte数组转换
 	├── 	IntegerOperT.java				// Integer类的进制转换
 	├── 	LongConvertT.java				// Long与byte数组转换
