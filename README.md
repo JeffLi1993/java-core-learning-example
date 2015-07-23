@@ -22,6 +22,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.collection.util	// Java集合工具类
 	├── org.javacore.io			// Java IO
 	├── org.javacore.io.byteoper		// Java IO 字节操作
+	├── org.javacore.nio			// Java NIO
 	├── org.javacore.thread		// Java 线程
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
@@ -66,6 +67,8 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	IntegerOperT.java				// Integer类的进制转换
 	├── 	LongConvertT.java				// Long与byte数组转换
 	├── 	StringConvertT.java				// String转换成byte数组
+	├── org.javacore.nio				// Java NIO
+	├── 	FileChannelT.java				// FileChannel读写文件案例
 	├── org.javacore.thread			// Java 线程
 	├── 	MyThread.java					// Thread的简单使用
 	├── 	MyRunnable.java					// Runnable接口的简单使用
