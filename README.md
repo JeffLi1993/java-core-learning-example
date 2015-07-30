@@ -61,6 +61,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	FormatteMemoryInput.java		// 格式化内存输入
 	├── 	JavaFileListT.java				// FilenameFilter文件过滤器的使用
 	├── 	MemoryInputT.java				// 内存中输入
+	├── 	PipeStreamT.java				// 管道输入输出流的的使用
 	├── 	RandomAccessFileT.java			// RandomAccessFile的使用
 	├── org.javacore.io.byteoper		// Java IO 字节操作
 	├── 	IntegerConvertT.java			// Integer与byte数组转换
