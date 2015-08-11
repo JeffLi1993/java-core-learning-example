@@ -53,6 +53,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP 与 new HashMap 性能对比
 	├── org.javacore.io				// Java IO
 	├── 	BufferedInputFileT.java			// 缓冲输入文件
+	├── 	CopyFileT.java					// 文件复制
 	├── 	Directory.java					// 目录实用工具
 	├── 	DirListT.java					// 列出目录并排序
 	├── 	FileMethodsT.java				// File方法详细使用
@@ -63,7 +64,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	MemoryInputT.java				// 内存中输入
 	├── 	PipeStreamT.java				// 管道输入输出流的的使用
 	├── 	RandomAccessFileT.java			// RandomAccessFile的使用
-	├── 	SystemStreamT.java			// System.out, System.err中IO的使用
+	├── 	SystemStreamT.java				// System.out, System.err中IO的使用
 	├── org.javacore.io.byteoper		// Java IO 字节操作
 	├── 	IntegerConvertT.java			// Integer与byte数组转换
 	├── 	IntegerOperT.java				// Integer类的进制转换
