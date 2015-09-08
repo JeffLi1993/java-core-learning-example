@@ -20,9 +20,11 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.collection.queue	// Java集合Queue
 	├── org.javacore.collection.set	// Java集合Set
 	├── org.javacore.collection.util	// Java集合工具类
+	├── org.javacore.initAndCleanup	// Java初始化及清理
 	├── org.javacore.io			// Java IO
 	├── org.javacore.io.byteoper		// Java IO 字节操作
 	├── org.javacore.nio			// Java NIO
+	├── org.javacore.reflection	// Java 反射
 	├── org.javacore.thread		// Java 线程
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
@@ -51,6 +53,10 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	CollectionsT.java				// Collections的使用	
 	├── 	IterAndListIterT.java			// Iterator与ListIterator的区别
 	├── 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP 与 new HashMap 性能对比
+	├── org.javacore.initAndCleanup	// Java初始化及清理
+	├── 	SimpleConstructor.java			// 简单构造器的展示
+	├── 	SimpleConstructor2.java			// 带参数简单构造器的展示
+	├── 	VoidConstructor.java			// 默认构造函数和方法的区别	
 	├── org.javacore.io				// Java IO
 	├── 	BufferedInputFileT.java			// 缓冲输入文件
 	├── 	CopyFileT.java					// 文件复制
@@ -72,6 +78,9 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	StringConvertT.java				// String转换成byte数组
 	├── org.javacore.nio				// Java NIO
 	├── 	FileChannelT.java				// FileChannel读写文件案例
+	├── org.javacore.reflection		// Java 反射
+	├── 	User.java						// 反射构造器使用的bean
+	├── 	UserConstructorReflect.java		// 利用反射通过构造器创建一个实例
 	├── org.javacore.thread			// Java 线程
 	├── 	MyThread.java					// Thread的简单使用
 	├── 	MyRunnable.java					// Runnable接口的简单使用
