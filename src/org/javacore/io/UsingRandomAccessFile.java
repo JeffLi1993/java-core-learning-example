@@ -1,6 +1,5 @@
 package org.javacore.io;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
@@ -49,7 +48,7 @@ public class UsingRandomAccessFile {
 		display();
 		
 		rf = new RandomAccessFile(file, "rw");
-		rf.seek(5 * 8);// 设置文件指针偏移量
+		rf.seek(5 * 8);// 设置文件指针偏移量，设置到第5个双精度字节
 		rf.writeDouble(47.003);
 		rf.close();
 		
