@@ -80,6 +80,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	StringConvertT.java				// String转换成byte数组
 	├── org.javacore.nio				// Java NIO
 	├── 	FileChannelT.java				// FileChannel读写文件案例
+	├── 	GetChannel.java				// 从流中获取FileChannel的案例
 	├── org.javacore.reflection		// Java 反射
 	├── 	User.java						// 反射构造器使用的bean
 	├── 	UserConstructorReflect.java		// 利用反射通过构造器创建一个实例
