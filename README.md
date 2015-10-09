@@ -62,6 +62,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	CopyFileT.java					// 文件复制
 	├── 	Directory.java					// 目录实用工具
 	├── 	DirListT.java					// 列出目录并排序
+	├── 	FileIOStreamT.java			// FileInputStream&FileOutputStream使用案例
 	├── 	FileMethodsT.java				// File方法详细使用
 	├── 	FilenameFilterT.java			// 类名过滤器的使用
 	├── 	FileT.java						// File类的使用
