@@ -36,7 +36,7 @@ public class GetChannel {
 		//////
 		// 写入文件
 		//////
-		// 从文件输出流获取FileChannel文件
+		// 从文件输出流获取FileChannel
 		FileChannel fc = new FileOutputStream("data.txt").getChannel();
 		// 将含有字节序列的缓冲区写入文件通道
 		fc.write(ByteBuffer.wrap("Some Text".getBytes()));// 将已存在的字节数组包装到ByteBuffer
