@@ -62,7 +62,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	CopyFileT.java					// 文件复制
 	├── 	Directory.java					// 目录实用工具
 	├── 	DirListT.java					// 列出目录并排序
-	├── 	FileIOStreamT.java			// FileInputStream&FileOutputStream使用案例
+	├── 	FileIOStreamT.java				// FileInputStream&FileOutputStream使用案例
 	├── 	FileMethodsT.java				// File方法详细使用
 	├── 	FilenameFilterT.java			// 类名过滤器的使用
 	├── 	FileT.java						// File类的使用
@@ -80,8 +80,11 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	LongConvertT.java				// Long与byte数组转换
 	├── 	StringConvertT.java				// String转换成byte数组
 	├── org.javacore.nio				// Java NIO
+	├── 	BufferToText.java				// ByteBuffer与char之间转换的案例
+	├── 	ChannelCopy.java				// FileChannel的文件复制案例
+	├── 	FileChannelTransferTo.java		// FileChannel的transferTo/transferFrom案例
 	├── 	FileChannelT.java				// FileChannel读写文件案例
-	├── 	GetChannel.java				// 从流中获取FileChannel的案例
+	├── 	GetChannel.java					// 从流中获取FileChannel的案例
 	├── org.javacore.reflection		// Java 反射
 	├── 	User.java						// 反射构造器使用的bean
 	├── 	UserConstructorReflect.java		// 利用反射通过构造器创建一个实例
