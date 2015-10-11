@@ -80,6 +80,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	LongConvertT.java				// Long与byte数组转换
 	├── 	StringConvertT.java				// String转换成byte数组
 	├── org.javacore.nio				// Java NIO
+	├── 	AvailableCharSets.java		// 可用的CharSet打印
 	├── 	BufferToText.java				// ByteBuffer与char之间转换的案例
 	├── 	ChannelCopy.java				// FileChannel的文件复制案例
 	├── 	FileChannelTransferTo.java		// FileChannel的transferTo/transferFrom案例
