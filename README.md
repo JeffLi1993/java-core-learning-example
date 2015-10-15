@@ -89,6 +89,9 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	GetChannel.java					// 从流中获取FileChannel的案例
 	├── 	GetData.java					// ByteBuffer操作类型数据的案例
 	├── 	IntBufferDemo.java				// 通过IntBuffer操作ByteBuffer的int型数据
+	├── 	LargeMappedFiles.java			// 内存映射文件的使用
+	├── 	MappedIO.java					// MappedByteBuffer与Old IO的性能比
+	├── 	UsingBuffers.java				// 利用buffer实现交换相邻字符
 	├── 	ViewBuffers.java				// 不同视图下的缓冲区
 	├── org.javacore.reflection		// Java 反射
 	├── 	User.java						// 反射构造器使用的bean
