@@ -23,6 +23,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.initAndCleanup	// Java初始化及清理
 	├── org.javacore.io			// Java IO
 	├── org.javacore.io.byteoper		// Java IO 字节操作
+	├── org.javacore.io.zip			// Java IO ZIP压缩解压
 	├── org.javacore.nio			// Java NIO
 	├── org.javacore.reflection	// Java 反射
 	├── org.javacore.thread		// Java 线程
@@ -79,13 +80,17 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	IntegerOperT.java				// Integer类的进制转换
 	├── 	LongConvertT.java				// Long与byte数组转换
 	├── 	StringConvertT.java				// String转换成byte数组
+	├── org.javacore.io.zip				// Java IO ZIP压缩解压
+	├── 	GZIPcompress.java				// GZIP简单使用
+	├── 	ZipCompress.java				// 利用Zip进行多文件保存
 	├── org.javacore.nio				// Java NIO
 	├── 	AvailableCharSets.java		 	// 可用的CharSet打印
 	├── 	BufferToText.java				// ByteBuffer与char之间转换的案例
 	├── 	ChannelCopy.java				// FileChannel的文件复制案例
 	├── 	Endians.java					// ByteBuffer中字节存储次序
-	├── 	FileChannelTransferTo.java		// FileChannel的transferTo/transferFrom案例
 	├── 	FileChannelT.java				// FileChannel读写文件案例
+	├── 	FileChannelTransferTo.java		// FileChannel的transferTo/transferFrom案例
+	├── 	FileLocking.java				// 文件加锁
 	├── 	GetChannel.java					// 从流中获取FileChannel的案例
 	├── 	GetData.java					// ByteBuffer操作类型数据的案例
 	├── 	IntBufferDemo.java				// 通过IntBuffer操作ByteBuffer的int型数据
