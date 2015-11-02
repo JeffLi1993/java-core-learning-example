@@ -26,6 +26,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.io.zip			// Java IO ZIP压缩解压
 	├── org.javacore.nio			// Java NIO
 	├── org.javacore.reflection	// Java 反射
+	├── org.javacore.rtti		// Java RTTI
 	├── org.javacore.thread		// Java 线程
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
@@ -101,9 +102,19 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.reflection		// Java 反射
 	├── 	User.java						// 反射构造器使用的bean
 	├── 	UserConstructorReflect.java		// 利用反射通过构造器创建一个实例
+	├── org.javacore.rtti				// Java RTTI
+	├── 	ClassInitialization.java		// Class初始化案例
+	├── 	ShowMethods.java				// 获取Class方法案例
 	├── org.javacore.thread			// Java 线程
-	├── 	MyThread.java					// Thread的简单使用
+	├── 	BasicThreads.java				// 线程简单使用
+	├── 	CachedThreadPool.java			// 线程池CachedThreadPool的简单使用
+	├── 	CallableDemo.java				// Callable接口的使用 --- 实现带返回值的任务
+	├── 	FixedThreadPool.java			// 线程池FixedThreadPool的简单使用
+	├── 	LiftOff.java					// Runnable接口的实现类LiftOff
+	├── 	MoreBasicThreads.java			// 线程简单使用-启动多个线程
 	├── 	MyRunnable.java					// Runnable接口的简单使用
+	├── 	MyThread.java					// Thread的简单使用
+	├── 	SingleThreadExecutor.java		// 	SingleThreadExecutor的使用
 	拼命更新！顶！d=====(￣▽￣*)b
 
 ##学习方法
