@@ -22,7 +22,7 @@ import java.util.concurrent.Executors;
 /**
  * @author Jeff Lee
  * @since 2015-11-2 17:21:04
- * 	线程池Ececutor的简单使用-启动LiftOff线程{@link LiftOff}
+ * 	线程池CachedThreadPool的简单使用-启动LiftOff线程{@link LiftOff}
  */
 public class CachedThreadPool {
     public static void main(String[] args) {
