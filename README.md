@@ -109,12 +109,18 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	BasicThreads.java				// 线程简单使用
 	├── 	CachedThreadPool.java			// 线程池CachedThreadPool的简单使用
 	├── 	CallableDemo.java				// Callable接口的使用 --- 实现带返回值的任务
+  ├── 	DaemonFromFactory.java			// 后台线程工厂类的使用
+  ├── 	DaemonThreadFactory.java		// 线程工厂类
+  ├── 	DaemonsDontRunFinally.java		// 后台线程遇到Finally
 	├── 	FixedThreadPool.java			// 线程池FixedThreadPool的简单使用
 	├── 	LiftOff.java					// Runnable接口的实现类LiftOff
 	├── 	MoreBasicThreads.java			// 线程简单使用-启动多个线程
 	├── 	MyRunnable.java					// Runnable接口的简单使用
 	├── 	MyThread.java					// Thread的简单使用
+	├── 	SimpleDaemons.java				// Daemon后台线程的简单使用
+  ├── 	SimplePriorities.java			// 线程优先级的使用
 	├── 	SingleThreadExecutor.java		// 	SingleThreadExecutor的使用
+	├── 	SleepingTask.java			// 休眠线程sleep的使用
 	拼命更新！顶！d=====(￣▽￣*)b
 
 ##学习方法
