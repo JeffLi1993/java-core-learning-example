@@ -100,6 +100,10 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	UsingBuffers.java				// 利用buffer实现交换相邻字符
 	├── 	ViewBuffers.java				// 不同视图下的缓冲区
 	├── org.javacore.reflection		// Java 反射
+	├── 	ArrayCopy.java					// 反射扩容对象数组
+	├── 	EmployeeClass.java				// 反射在继承中的案例
+	├── 	ObjectAnalyzer.java				// 反射对象分析工具
+	├── 	ReflectionTest.java				// 反射对象构造函数、方法及字段
 	├── 	User.java						// 反射构造器使用的bean
 	├── 	UserConstructorReflect.java		// 利用反射通过构造器创建一个实例
 	├── org.javacore.rtti				// Java RTTI
@@ -120,7 +124,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	SimpleDaemons.java				// Daemon后台线程的简单使用
    	├── 	SimplePriorities.java			// 线程优先级的使用
 	├── 	SingleThreadExecutor.java		// 	SingleThreadExecutor的使用
-	├── 	SleepingTask.java			// 休眠线程sleep的使用
+	├── 	SleepingTask.java			 // 休眠线程sleep的使用
 	拼命更新！顶！d=====(￣▽￣*)b
 
 ##学习方法
