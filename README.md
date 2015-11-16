@@ -14,6 +14,7 @@ Java核心技术学习代码兼测试案例<br>
 
 包目录：
 
+	├── org.javacore.base		// Java基础必备
 	├── org.javacore.collection	// Java集合
 	├── org.javacore.collection.list	// Java集合List
 	├── org.javacore.collection.map	// Java集合Map
@@ -34,6 +35,8 @@ Java核心技术学习代码兼测试案例<br>
 详细目录：
 
 	├── README.md						// 项目唯一详细文档
+	├── org.javacore.base			// Java基础必备
+	├── 	CopyT.java						// 深拷贝与浅拷贝
 	├── org.javacore.collection		// Java集合
 	├── 	PerBtwnAllCollectionsT.java		// 各集合添加方法性能对比
 	├── org.javacore.collection.list		// Java集合List
@@ -123,8 +126,8 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	MyThread.java					// Thread的简单使用
 	├── 	SimpleDaemons.java				// Daemon后台线程的简单使用
    	├── 	SimplePriorities.java			// 线程优先级的使用
-	├── 	SingleThreadExecutor.java		// 	SingleThreadExecutor的使用
-	├── 	SleepingTask.java			 // 休眠线程sleep的使用
+	├── 	SingleThreadExecutor.java		// SingleThreadExecutor的使用
+	├── 	SleepingTask.java			    // 休眠线程sleep的使用
 	拼命更新！顶！d=====(￣▽￣*)b
 
 ##学习方法
