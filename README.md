@@ -40,6 +40,9 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.base.inter		// Java接口
 	├── 	ApplyClass.java					// 不使用接口的接口案例
 	├── 	ApplyInter.java					// 使用接口的接口案例
+	├── org.javacore.base.inter		// Java接口
+	├── 	ApplyClass.java					// 不使用接口的接口案例
+	├── 	ApplyInter.java					// 使用接口的接口案例
 	├── org.javacore.collection		// Java集合
 	├── 	PerBtwnAllCollectionsT.java		// 各集合添加方法性能对比
 	├── org.javacore.collection.list		// Java集合List
