@@ -40,9 +40,6 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.base.inter		// Java接口
 	├── 	ApplyClass.java					// 不使用接口的接口案例
 	├── 	ApplyInter.java					// 使用接口的接口案例
-	├── org.javacore.base.inter		// Java接口
-	├── 	ApplyClass.java					// 不使用接口的接口案例
-	├── 	ApplyInter.java					// 使用接口的接口案例
 	├── org.javacore.collection		// Java集合
 	├── 	PerBtwnAllCollectionsT.java		// 各集合添加方法性能对比
 	├── org.javacore.collection.list		// Java集合List
@@ -61,13 +58,13 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	SetContainT.java				// Set的Contains方法
 	├── 	TreeSetT.java					// TreeSet操作实现Comparable接口的对象
 	├── org.javacore.collection.util		// Java集合工具类
-	├── 	CollectionsT.java				// Collections的使用	
+	├── 	CollectionsT.java				// Collections的使用
 	├── 	IterAndListIterT.java			// Iterator与ListIterator的区别
 	├── 	PerBtwnEmptyMapAndHashMapT.java	// Collections.EMPTY_MAP 与 new HashMap 性能对比
 	├── org.javacore.initAndCleanup	// Java初始化及清理
 	├── 	SimpleConstructor.java			// 简单构造器的展示
 	├── 	SimpleConstructor2.java			// 带参数简单构造器的展示
-	├── 	VoidConstructor.java			// 默认构造函数和方法的区别	
+	├── 	VoidConstructor.java			// 默认构造函数和方法的区别
 	├── org.javacore.io				// Java IO
 	├── 	BufferedInputFileT.java			// 缓冲输入文件
 	├── 	CopyFileT.java					// 文件复制
