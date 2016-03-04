@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
+ * 描述:线程优先级案例
  * Created by bysocket on 16/2/24.
  */
 public class ThreadInfo {
