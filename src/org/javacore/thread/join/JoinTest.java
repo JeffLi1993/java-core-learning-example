@@ -13,7 +13,7 @@ public class JoinTest {
 
         //可以注释其中一个加深理解
         t1.join();
-        t2.join();
+        //t2.join();
 
         System.out.println("ending all");
     }
