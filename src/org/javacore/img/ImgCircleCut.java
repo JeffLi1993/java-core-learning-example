@@ -57,8 +57,4 @@ public class ImgCircleCut {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        ImgCircleCut("/jee/java-core-learning-example/src/resources/6890948.png","/jee/java-core-learning-example/src/resources/111.png");
-    }
 }
