@@ -33,6 +33,7 @@ Java核心技术学习代码兼测试案例<br>
 	├── org.javacore.thread		// Java 线程
     =================实战JAVA 8=================
     ├── org.javacore.lambda		// lambda表达式
+    ├── org.javacore.stream		// Stream API 集合的流式操作
 	│
 	拼命更新！顶！d=====(￣▽￣*)b
 

@@ -1,4 +1,4 @@
-package org.javacore.lambda;
+package org.javacore.stream;
 
 /*
  * Copyright [2015] [Jeff Lee]
@@ -16,30 +16,23 @@ package org.javacore.lambda;
  * limitations under the License.
  */
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 /**
- * Lambda - 启动线程
+ * 组合 - 流
  *
- * Created by bysocket on 16/7/13.
+ * Created by bysocket on 16/7/14.
  */
-public class LambdaRunnable {
-    static int b = 10;
-
+public class ConcatStreamTest {
     public static void main(String[] args) {
-        // 启动线程
-//        Thread thread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                b++;
-//                System.out.println(b);
-//            }
-//        });
+        List<String> list1 = Arrays.asList("a","b","c");
+        List<String> list2 = Arrays.asList("d","e","f");
 
-        // Lambda - 启动线程
-        Thread thread = new Thread(() -> {
-            b++;
-            System.out.println(b);
-        });
-        thread.start();
-        System.out.println("Done!");
+        // 组合list1和list2的流
+        List result = Stream.concat(list1.stream(),list2.stream()).collect(Collectors.toList());
+        result.stream().forEach(System.out::println);
     }
 }

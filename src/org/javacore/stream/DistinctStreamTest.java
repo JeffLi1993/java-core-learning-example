@@ -1,4 +1,4 @@
-package org.javacore.lambda;
+package org.javacore.stream;
 
 /*
  * Copyright [2015] [Jeff Lee]
@@ -16,30 +16,21 @@ package org.javacore.lambda;
  * limitations under the License.
  */
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
- * Lambda - 启动线程
+ * 去重
  *
- * Created by bysocket on 16/7/13.
+ * Created by bysocket on 16/7/14.
  */
-public class LambdaRunnable {
-    static int b = 10;
-
+public class DistinctStreamTest {
     public static void main(String[] args) {
-        // 启动线程
-//        Thread thread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                b++;
-//                System.out.println(b);
-//            }
-//        });
+        List<String> list1 = Arrays.asList("a","b","b","b","ac");
 
-        // Lambda - 启动线程
-        Thread thread = new Thread(() -> {
-            b++;
-            System.out.println(b);
-        });
-        thread.start();
-        System.out.println("Done!");
+        // 去重
+        List result = list1.stream().distinct().collect(Collectors.toList());
+        result.stream().forEach(str -> System.out.print(str + " -> "));
     }
 }

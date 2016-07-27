@@ -1,4 +1,4 @@
-package org.javacore.lambda;
+package org.javacore.stream;
 
 /*
  * Copyright [2015] [Jeff Lee]
@@ -16,30 +16,23 @@ package org.javacore.lambda;
  * limitations under the License.
  */
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
- * Lambda - 启动线程
- *
+ * Stream API 集合的流式操作
+ * <p/>
  * Created by bysocket on 16/7/13.
  */
-public class LambdaRunnable {
-    static int b = 10;
-
+public class CollectionStreamTest01 {
     public static void main(String[] args) {
-        // 启动线程
-//        Thread thread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                b++;
-//                System.out.println(b);
-//            }
-//        });
+        List<String> strList = Arrays.asList("a1", "a2", "c3", "c6", "c4");
 
-        // Lambda - 启动线程
-        Thread thread = new Thread(() -> {
-            b++;
-            System.out.println(b);
-        });
-        thread.start();
-        System.out.println("Done!");
+        strList
+                .stream()
+                .filter(str -> str.startsWith("c"))
+                .map(String::toUpperCase)
+                .sorted()
+                .forEach(System.out::println);
     }
 }

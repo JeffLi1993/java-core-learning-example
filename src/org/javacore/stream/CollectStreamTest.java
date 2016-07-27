@@ -1,4 +1,4 @@
-package org.javacore.lambda;
+package org.javacore.stream;
 
 /*
  * Copyright [2015] [Jeff Lee]
@@ -16,30 +16,18 @@ package org.javacore.lambda;
  * limitations under the License.
  */
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
- * Lambda - 启动线程
  *
- * Created by bysocket on 16/7/13.
+ * Created by bysocket on 16/7/14.
  */
-public class LambdaRunnable {
-    static int b = 10;
-
+public class CollectStreamTest {
     public static void main(String[] args) {
-        // 启动线程
-//        Thread thread = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                b++;
-//                System.out.println(b);
-//            }
-//        });
-
-        // Lambda - 启动线程
-        Thread thread = new Thread(() -> {
-            b++;
-            System.out.println(b);
-        });
-        thread.start();
-        System.out.println("Done!");
+        List<Integer> list = Arrays.asList(1,2,3,4);
+        Double result = list.stream().collect(Collectors.averagingDouble(d->d*2));
+        System.out.println(result);
     }
 }
