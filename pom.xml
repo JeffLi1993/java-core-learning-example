@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.javacore</groupId>
-	<artifactId>javacore</artifactId>
+	<artifactId>java-core-learning-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<plugins>
