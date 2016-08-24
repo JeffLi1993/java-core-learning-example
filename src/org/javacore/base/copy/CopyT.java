@@ -32,10 +32,20 @@ class Family implements Cloneable{
         this.name = name;
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
+    /**
+     * 深拷贝
+     * @return
+     */
+    /*@Override
+    public Object clone() {
+        Object o = null;
+        try {
+            o = super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return o;
+    }*/
 }
 class Student implements Cloneable{
     private String name;
@@ -57,10 +67,30 @@ class Student implements Cloneable{
         this.family = family;
     }
 
+    /**
+     * 浅拷贝 对其对象的引用却没有拷贝
+     * @return
+     * @throws CloneNotSupportedException
+     */
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+    /**
+     * 深拷贝
+     */
+    /*@Override
+    protected Object clone() {
+        Student o = null;
+        try {
+            o = (Student)super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        o.family = (Family) family.clone();
+        return o;
+    }*/
 }
 
 public class CopyT {
@@ -71,19 +101,10 @@ public class CopyT {
         student1.setFamily(family);
         student1.setName("Jeff");
 
-        // 浅拷贝
-        // 对其对象的引用却没有拷贝
         Student student2 = (Student) student1.clone();
         student2.setName("Jeff2");
         student2.getFamily().setName("Jeff2 Family");
         System.out.println(student1.getName() + " " + student1.getFamily().getName());
         System.out.println(student2.getName() + " " + student2.getFamily().getName());
-
-        // 深拷贝
-//        Student student2 = (Student) student1.clone();
-//        student2.setName("Jeff2");
-//        student2.getFamily().setName("Jeff2 Family");
-//        System.out.println(student1.getName() + " " + student1.getFamily().getName());
-//        System.out.println(student2.getName() + " " + student2.getFamily().getName());
     }
 }
