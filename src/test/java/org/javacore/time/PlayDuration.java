@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  *
  * Created by bysocket on 16/8/23.
  */
-public class DurationTest {
+public class PlayDuration {
 	public static void main(String[] args) throws InterruptedException {
 		Instant start = Instant.now();
 		TimeUnit.SECONDS.sleep(3);
