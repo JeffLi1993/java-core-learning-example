@@ -10,143 +10,109 @@ import java.time.format.DateTimeFormatter;
  */
 public final class TimeUtil {
 
-	private TimeUtil() {
-	}
+    /**
+     * 获取默认时间格式: yyyy-MM-dd HH:mm:ss
+     */
+    private static final DateTimeFormatter DEFAULT_DATETIME_FORMATTER = TimeFormat.LONG_DATE_PATTERN_LINE.formatter;
 
-	/**
-	 * 时间间隔之间的空格
-	 */
-	private static final String SPACE_OF_TIME = " ";
+    private TimeUtil() {
+        // no construct function
+    }
 
-	/**
-	 * 获取默认时间格式: yyyy-MM-dd HH:mm:ss
-	 */
-	private static final DateTimeFormatter defaultDateTimeFormatter = DateTimeFormatter.ofPattern(TimeFormat.LONG_DATE_PATTERN_LINE);
+    /**
+     * String 转时间
+     *
+     * @param timeStr
+     * @return
+     */
+    public static LocalDateTime parseTime(String timeStr) {
+        return LocalDateTime.parse(timeStr, DEFAULT_DATETIME_FORMATTER);
+    }
 
-	/**
-	 * String 转时间
-	 *
-	 * @param timeStr
-	 * @return
-	 */
-	public final static LocalDateTime parseTime(String timeStr) {
-		LocalDateTime dateTime = LocalDateTime.parse(timeStr, defaultDateTimeFormatter);
-		return dateTime;
-	}
+    /**
+     * String 转时间
+     *
+     * @param timeStr
+     * @param format  时间格式
+     * @return
+     */
+    public static LocalDateTime parseTime(String timeStr, TimeFormat format) {
+        return LocalDateTime.parse(timeStr, format.formatter);
+    }
 
-	/**
-	 * String 转时间
-	 *
-	 * @param timeStr
-	 * @param format  时间格式
-	 * @return
-	 */
-	public final static LocalDateTime parseTime(String timeStr, String format) {
-		LocalDateTime dateTime = LocalDateTime.parse(timeStr, getDateTimeFormatter(format));
-		return dateTime;
-	}
+    /**
+     * 时间转 String
+     *
+     * @param time
+     * @return
+     */
+    public static String parseTime(LocalDateTime time) {
+        return DEFAULT_DATETIME_FORMATTER.format(time);
+    }
 
-	/**
-	 * 时间转 String
-	 *
-	 * @param time
-	 * @return
-	 */
-	public final static String parseTime(LocalDateTime time) {
-		return defaultDateTimeFormatter.format(time);
-	}
+    /**
+     * 时间转 String
+     *
+     * @param time
+     * @param format 时间格式
+     * @return
+     */
+    public static String parseTime(LocalDateTime time, TimeFormat format) {
+        return format.formatter.format(time);
+    }
 
-	/**
-	 * 时间转 String
-	 *
-	 * @param time
-	 * @param format 时间格式
-	 * @return
-	 */
-	public final static String parseTime(LocalDateTime time, String format) {
-		return getDateTimeFormatter(format).format(time);
-	}
+    /**
+     * 获取当前时间
+     *
+     * @return
+     */
+    public static String getCurrentDatetime() {
+        return DEFAULT_DATETIME_FORMATTER.format(LocalDateTime.now());
+    }
 
-	/**
-	 * 获取当前时间
-	 *
-	 * @return
-	 */
-	public final static String getCurrentDatetime() {
-		LocalDateTime now = LocalDateTime.now().withNano(0);
-		return now.toLocalDate() + SPACE_OF_TIME + now.toLocalTime();
-	}
+    /**
+     * 获取当前时间
+     *
+     * @param format 时间格式
+     * @return
+     */
+    public static String getCurrentDatetime(TimeFormat format) {
+        return format.formatter.format(LocalDateTime.now());
+    }
 
-	/**
-	 * 获取当前时间
-	 *
-	 * @param format 时间格式
-	 * @return
-	 */
-	public final static String getCurrentDatetime(String format) {
-		LocalDateTime now = LocalDateTime.now();
-		return getDateTimeFormatter(format).format(now);
-	}
+    /**
+     * 时间格式
+     */
+    public enum TimeFormat {
 
-	/**
-	 * 获取时间格式
-	 *
-	 * @param format 时间格式
-	 * @return
-	 */
-	private final static DateTimeFormatter getDateTimeFormatter(String format) {
-		return DateTimeFormatter.ofPattern(format);
-	}
+        /**
+         * 短时间格式
+         */
+        SHORT_DATE_PATTERN_LINE("yyyy-MM-dd"),
+        SHORT_DATE_PATTERN_SLASH("yyyy/MM/dd"),
+        SHORT_DATE_PATTERN_DOUBLE_SLASH("yyyy\\MM\\dd"),
+        SHORT_DATE_PATTERN_NONE("yyyyMMdd"),
 
-	public static void main(String[] args) {
-		// 当前时间
-		System.out.println(getCurrentDatetime(TimeFormat.SHORT_DATE_PATTERN_LINE));
-		System.out.println(getCurrentDatetime());
-		System.out.println(getCurrentDatetime(TimeFormat.LONG_DATE_PATTERN_WITH_MILSEC_LINE));
+        /**
+         * 长时间格式
+         */
+        LONG_DATE_PATTERN_LINE("yyyy-MM-dd HH:mm:ss"),
+        LONG_DATE_PATTERN_SLASH("yyyy/MM/dd HH:mm:ss"),
+        LONG_DATE_PATTERN_DOUBLE_SLASH("yyyy\\MM\\dd HH:mm:ss"),
+        LONG_DATE_PATTERN_NONE("yyyyMMdd HH:mm:ss"),
 
-		// 时间转 String
-		LocalDateTime dateTime = LocalDateTime.now();
-		System.out.println(parseTime(dateTime));
+        /**
+         * 长时间格式 带毫秒
+         */
+        LONG_DATE_PATTERN_WITH_MILSEC_LINE("yyyy-MM-dd HH:mm:ss.SSS"),
+        LONG_DATE_PATTERN_WITH_MILSEC_SLASH("yyyy/MM/dd HH:mm:ss.SSS"),
+        LONG_DATE_PATTERN_WITH_MILSEC_DOUBLE_SLASH("yyyy\\MM\\dd HH:mm:ss.SSS"),
+        LONG_DATE_PATTERN_WITH_MILSEC_NONE("yyyyMMdd HH:mm:ss.SSS");
 
-		LocalDateTime dateTime1 = LocalDateTime.of(2016, 8, 25, 23, 10, 10);
-		System.out.println(parseTime(dateTime1, TimeFormat.LONG_DATE_PATTERN_LINE));
+        private transient DateTimeFormatter formatter;
 
-		// String 转时间
-		String dateTimeStr = "2016-08-25 23:10:10";
-		System.out.println(parseTime(dateTimeStr));
-
-		String dateTimeStr1 = "2016-08-25 23:10:10";
-		System.out.println(parseTime(dateTimeStr1, TimeFormat.LONG_DATE_PATTERN_LINE));
-	}
-}
-
-/**
- * 时间格式
- *
- */
-class TimeFormat {
-
-	/**
-	 * 短时间格式
-	 */
-	public static final String SHORT_DATE_PATTERN_LINE = "yyyy-MM-dd";
-	public static final String SHORT_DATE_PATTERN_SLASH = "yyyy/MM/dd";
-	public static final String SHORT_DATE_PATTERN_DOUBLE_SLASH = "yyyy\\MM\\dd";
-	public static final String SHORT_DATE_PATTERN_NONE = "yyyyMMdd";
-
-	/**
-	 * 长时间格式
-	 */
-	public static final String LONG_DATE_PATTERN_LINE = "yyyy-MM-dd HH:mm:ss";
-	public static final String LONG_DATE_PATTERN_SLASH = "yyyy/MM/dd HH:mm:ss";
-	public static final String LONG_DATE_PATTERN_DOUBLE_SLASH = "yyyy\\MM\\dd HH:mm:ss";
-	public static final String LONG_DATE_PATTERN_NONE = "yyyyMMdd HH:mm:ss";
-
-	/**
-	 * 长时间格式 带毫秒
-	 */
-	public static final String LONG_DATE_PATTERN_WITH_MILSEC_LINE = "yyyy-MM-dd HH:mm:ss.SSS";
-	public static final String LONG_DATE_PATTERN_WITH_MILSEC_SLASH = "yyyy/MM/dd HH:mm:ss.SSS";
-	public static final String LONG_DATE_PATTERN_WITH_MILSEC_DOUBLE_SLASH = "yyyy\\MM\\dd HH:mm:ss.SSS";
-	public static final String LONG_DATE_PATTERN_WITH_MILSEC_NONE = "yyyyMMdd HH:mm:ss.SSS";
+        TimeFormat(String pattern) {
+            formatter = DateTimeFormatter.ofPattern(pattern);
+        }
+    }
 }
