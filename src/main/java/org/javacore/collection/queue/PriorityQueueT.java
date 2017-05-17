@@ -31,5 +31,10 @@ public class PriorityQueueT {
 			pq1.offer(x);
 		// 注意排序
 		System.out.println("pq1: " + pq1);
+
+		// 出队顺序
+		while (!pq1.isEmpty()) {
+			System.out.println(pq1.poll());
+		}
 	}
 }
