@@ -135,5 +135,5 @@
 
 
 ## 相关笔记
-- [Object类](../notes/Object.md)
+- [Object类](https://github.com/xiaokui0919/java-core-learning-example/blob/master/notes/Object.md)
 - ​
