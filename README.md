@@ -1,8 +1,4 @@
-# java-core-learning-example
-关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
-
-如果您对文字类教程不感冒或者想要通过综合案例学习Spring，那么给您推荐这个价格最良心的视频课程：["玩转Spring全家桶"](https://time.geekbang.org/course/intro/156?code=zqaEuXYpWbKaPeBaJc8GVoYCUHvoGhTlQQ7QZYoWWdI%3D&utm_term=SPoster)
-# 赞助商，真的好
+# 感谢赞助的ta们
 <table>
       <tbody>
             <tr>
@@ -21,32 +17,59 @@
       
 </table>
 
-## Spring For All 社区
-Spring For All 社区是新组建的关于 Spring 的纯技术交流社区（涵盖 Spring Boot、Spring Cloud 等内容），集诸多开源爱好者和技术大牛贡献内容和交流问题。我们不夸大、不装逼、做最纯粹的技术分享！！！
+**Java 核心系列教程**，关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
 
-看看我们超强的群众基础，欢迎有兴趣的朋友加入QQ群分享与交流：
+包括基础语法，OOP，字符串，集合，IO，反射，线程，网络等。
+未完成模块：阿里Java手册、java8，注解,fork/join，加解密等。欢迎fork，欢迎交流。
 
-①群： 365234583（满）<br>
-②群： 123013854（满）<br>
-③群： 290714704<br>
-④群： 112133511<br>
-⑤群： 157525002（满）<br>
-⑥群： 564840207<br>
-⑦群： 470962790（满）<br>
-⑧群： 613456104（满）<br>
-⑨群： 534583667<br>
-⑩群： 210742970（满）
+### 一、支持泥瓦匠
+1. 拿起微信，关注博客左侧公众号：「泥瓦匠BYSocket 」
+2. 给教程的开源代码仓库点个 **Star** 吧
+	- [GitHub（java-core-learning-example）](https://github.com/JeffLi1993/java-core-learning-example)
+	- [Gitee（java-core-learning-example）](https://gitee.com/jeff1993/java-core-learning-example)
+3. 帮忙分享该系列文章链接给更多的朋友
 
-## 作者与学习乐园
-源码地址:我的[GitHub地址](https://github.com/JeffLi1993 "GitHub")<br>
-作者： [李强强](http://www.bysocket.com/ "李强强")<br>
-QQ群：编程之美 365234583  [立即加入](http://jq.qq.com/?_wv=1027&k=Sx4s4U "编程之美")<br>
-编程之美② 290714704  <br><br>
-关注微信公众号【泥瓦匠BYSokcet】，及时得到技术文章推送<br>
+> 如果您对 Java 基础核心类教程不感冒或者想要通过综合案例学习Spring，那么给您推荐这个我觉得目前内容与价格最良心的视频课程：[“玩转Spring全家桶”](https://time.geekbang.org/course/intro/156?code=zqaEuXYpWbKaPeBaJc8GVoYCUHvoGhTlQQ7QZYoWWdI%3D&utm_term=SPoster "“玩转Spring全家桶”")
+
+### 二、系列文章目录
+
+『 阿里 Java 开发手册篇 』
+- [《为啥强制子类、父类变量名不同？》](https://www.bysocket.com/archives/2100)
+
+『 Java 进阶篇 』
+- 连载中...
+
+『 Java 集合篇 』
+- [《Java 容器 &amp; 泛型：一、认识容器》](http://www.bysocket.com/?p=162) 
+- [《Java 容器 &amp; 泛型：二、ArrayList 、LinkedList和Vector比较》](http://www.bysocket.com/?p=169) 
+- [《Java 容器 &amp; 泛型：三、HashSet，TreeSet 和 LinkedHashSet比较》](http://www.bysocket.com/?p=195) 
+- [《Java 容器 &amp; 泛型：四、Colletions.sort 和 Arrays.sort 的算法》](http://www.bysocket.com/?p=219) 
+- [《Java 容器 &amp; 泛型：五、HashMap 和 TreeMap的自白》](http://www.bysocket.com/?p=273) 
+- [《Java 容器 &amp; 泛型：六、容器讲到为什么要使用泛型》](http://www.bysocket.com/?p=278) 
+
+『 Java IO 篇 』
+- [《Java I/O : Bit Operation 位运算》](https://www.bysocket.com/?p=336) 
+- [《图解 Java IO : 一、File源码》](https://www.bysocket.com/?p=420) 
+- [《图解 Java IO : 二、FilenameFilter源码》](https://www.bysocket.com/?p=449) 
+- [《Java IO 之 InputStream源码》](https://www.bysocket.com/?p=585) 
+- [《Java IO 之 OutputStream源码》](https://www.bysocket.com/?p=592) 
+- [《Java IO 之 FileInputStream & FileOutputStream源码分析》](https://www.bysocket.com/?p=611) 
+- [《Java IO 总结图》](https://www.bysocket.com/?p=626) 
+
+
+### 三、最后推荐
+
+- [我的博客](http://www.bysocket.com "我的博客")：分享学习可落地的技术博文
+- [我的GitHub](https://github.com/JeffLi1993 "我的GitHub")：Follow 下呗
+- [我的Gitee](https://gitee.com/jeff1993 "我的Gitee")：Follow 下呗
+- [Spring问答社区](http://www.spring4all.com/ "Spring问答社区")：如果您有什么问题，可以去这里发帖
 ![公众号](https://github.com/JeffLi1993/springboot-learning-example/blob/master/doc/qrcode.jpg)
 
+### 四、我的公号
 
-## 项目结构
+<img width="300" src="http://www.bysocket.com/wp-content/uploads/2017/01/qrcode_for_gh_cd421e7eb7d6_430.jpg">
+
+#### 项目结构
 - src 目录<br>
 Java核心技术学习代码兼测试案例<br>
 - test目录(测试包名与src目录保持一致)<br>
@@ -178,5 +201,5 @@ Java核心技术学习代码兼测试案例<br>
 	├── 	SleepingTask.java			    // 休眠线程sleep的使用
 	拼命更新！顶！d=====(￣▽￣*)b
  
-## 学习方法
+#### 学习方法
 根据包目录，进行一块一块学习。然后针对某类，请看下相对应的test包或者src下直接测试案例，进行学习。
