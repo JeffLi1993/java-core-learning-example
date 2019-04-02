@@ -63,10 +63,9 @@
 - [我的GitHub](https://github.com/JeffLi1993 "我的GitHub")：Follow 下呗
 - [我的Gitee](https://gitee.com/jeff1993 "我的Gitee")：Follow 下呗
 - [Spring问答社区](http://www.spring4all.com/ "Spring问答社区")：如果您有什么问题，可以去这里发帖
-![公众号](https://github.com/JeffLi1993/springboot-learning-example/blob/master/doc/qrcode.jpg)
 
 ### 四、我的公号
-
+关注微信公众号，领取 Java 精选干货学习资料
 <img width="300" src="http://www.bysocket.com/wp-content/uploads/2017/01/qrcode_for_gh_cd421e7eb7d6_430.jpg">
 
 #### 项目结构
