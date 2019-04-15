@@ -23,7 +23,7 @@
 未完成模块：阿里Java手册、java8，注解,fork/join，加解密等。欢迎fork，欢迎交流。
 
 ### 一、支持泥瓦匠
-1. 拿起微信，关注博客左侧公众号：「泥瓦匠BYSocket 」
+1. 拿起微信，关注公众号：「泥瓦匠BYSocket 」。添加我微信：bysocket01，加入纯技术交流群，成长技术
 2. 给教程的开源代码仓库点个 **Star** 吧
 	- [GitHub（java-core-learning-example）](https://github.com/JeffLi1993/java-core-learning-example)
 	- [Gitee（java-core-learning-example）](https://gitee.com/jeff1993/java-core-learning-example)
