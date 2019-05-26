@@ -34,8 +34,8 @@
 ### 二、系列文章目录
 
 『 阿里 Java 开发手册篇 』
-- [《阿里 Java 手册系列教程：为啥强制子类、父类变量名不同？》](https://www.bysocket.com/archives/2253/%E9%98%BF%E9%87%8C-java-%E6%89%8B%E5%86%8C%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B%EF%BC%9A%E4%B8%BA%E5%95%A5%E5%BC%BA%E5%88%B6%E5%AD%90%E7%B1%BB%E3%80%81%E7%88%B6%E7%B1%BB%E5%8F%98%E9%87%8F%E5%90%8D)
-- [《阿里 Java 开发手册有感》](https://www.bysocket.com/archives/2210)
+- [《阿里 Java 手册系列教程：为啥强制子类、父类变量名不同？》](https://www.bysocket.com/technique/2253.html)
+- [《阿里 Java 开发手册有感》](https://www.bysocket.com/technique/2210.html)
 
 『 Java 进阶篇 』
 - 连载中...
