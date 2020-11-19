@@ -1,20 +1,11 @@
-## 推荐学习资料！！强烈推荐！
+推荐工具：
 
-<div style="text-align: center;margin: 10px;color:red">
-    点击立即领取，<a  href="https://mp.weixin.qq.com/s/9pzPLI8MHQThWauHUKos6A" target="_blank">
-《1000G 免费精选技术学习资料》
-</a>（限时 1 小时内领取！）<br/>
-	点击立即领取，<a  href="https://mp.weixin.qq.com/s/9pzPLI8MHQThWauHUKos6A" target="_blank">
-《1000G 免费精选技术学习资料》
-</a>（限时 1 小时内领取！）<br/>
-	点击立即领取，<a  href="https://mp.weixin.qq.com/s/9pzPLI8MHQThWauHUKos6A" target="_blank">
-《1000G 免费精选技术学习资料》
-</a>（限时 1 小时内领取！）<br/>
-</div>
+[微信公众号 Markdown 编辑器 - OpenWrite](https://md.openwrite.cn/)：Markdown 微信编辑器是一款专业强大的微信公众平台在线编辑排版工具，提供手机预览功能，让用户在微信图文 、文章、内容排版、文本编辑、素材编辑上更加方便。 - [更多介绍](https://openwrite.cn/product-markdown)
+
+[博客群发平台](https://openwrite.cn)
 
 
-
-### 一、支持泥瓦匠（[博客群发平台](https://openwrite.cn) https://openwrite.cn）
+### 一、支持泥瓦匠
 
 
 **Java 核心系列教程**，关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
