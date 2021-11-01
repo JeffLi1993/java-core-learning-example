@@ -1,19 +1,13 @@
-推荐工具：
-
-[微信公众号 Markdown 编辑器 - OpenWrite](https://md.openwrite.cn/)：Markdown 微信编辑器是一款专业强大的微信公众平台在线编辑排版工具，提供手机预览功能，让用户在微信图文 、文章、内容排版、文本编辑、素材编辑上更加方便。 - [更多介绍](https://openwrite.cn/product-markdown)
-
-[博客群发平台](https://openwrite.cn)
-
-
 ### 一、支持泥瓦匠
 
+关注泥瓦匠个人博客的更新：[我的博客](https://www.bysocket.com "我的博客") - 分享学习可落地的技术博文
 
 **Java 核心系列教程**，关于Java核心技术学习积累的例子，是初学者及核心技术巩固的最佳实践。
 
 包括基础语法，OOP，字符串，集合，IO，反射，线程，网络等。
 未完成模块：阿里Java手册、java8，注解,fork/join，加解密等。欢迎fork，欢迎交流。
 
-1. 拿起微信，关注公众号：「泥瓦匠BYSocket 」。添加我微信：bysocket01，加入纯技术交流群，成长技术
+1. 拿起微信，关注公众号：「程序员泥瓦匠 」
 2. 给教程的开源代码仓库点个 **Star** 吧
 	- [GitHub（java-core-learning-example）](https://github.com/JeffLi1993/java-core-learning-example)
 	- [Gitee（java-core-learning-example）](https://gitee.com/jeff1993/java-core-learning-example)
