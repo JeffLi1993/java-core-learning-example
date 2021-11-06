@@ -1,8 +1,14 @@
 package alibaba.java;
 
-public class ParentClass {
+class ParentClass {
     public String name = "parent";
-    
+}
+
+class SonClass extends ParentClass {
+    public String name = "son";
+}
+
+public class Driver{
     public static void main(String[] args) {
         ParentClass parentClass = new SonClass();
         SonClass sonClass = new SonClass();
@@ -11,8 +17,4 @@ public class ParentClass {
         System.out.println("sonClass.name = " + sonClass.name);
         System.out.println("debug...");
     }
-}
-
-class SonClass extends ParentClass {
-    public String name = "son";
 }
